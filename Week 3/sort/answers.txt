@@ -1,0 +1,17 @@
+sort1 uses: Bubble Sort
+How do you know?: It is slower than Merge Sort, but it is faster than Selection Sort when sorting sorted list.
+        Results:
+        random 50,000 - 10.485s
+        sorted 50,000 - 2.395s
+
+sort2 uses: Merge Sort
+How do you know?: Since Merge Sort is the fastest compared to other two sorting algorithms.
+        Results:
+        random 50,000 - 1.869s
+        sorted 50,000 - 2.307s
+
+sort3 uses: Selection Sort
+How do you know?: It is slower than Merge Sort, and also slower than Bubble Sort when sorting sorted list.
+        Results:
+        random 50,000 - 4.343s
+        sorted 50,000 - 5.004s
