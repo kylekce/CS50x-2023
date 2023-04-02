@@ -1,0 +1,5 @@
+To characterize a person's audio aura, I could calculate the average value of the top 100 songs' danceability, energy,
+key, loudness, speechiness, valence, tempo, and duration. However, this method might not be very representative of the
+listener so I propose adding additional variables such as the listeners' mood, activity, and other outside factors. And
+use an algorithm or machine learning to identify their patterns such as their music of choice during a workout, study,
+and other activities.
