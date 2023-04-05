@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Trivia!</title>
+    <script>
+        // TODO: Add code to check answers to questions
+        document.addEventListener("DOMContentLoaded", function () {
+            let access = true;
+            let answer1 = "b";
+            let form = document.querySelector("#multiple");
+            let buttons = form.querySelectorAll("button");
+            let feedback1 = document.querySelector("#feedback1");
+
+            for (let i = 0; i < buttons.length; i++) {
+                buttons[i].addEventListener("click", function () {
+                    event.preventDefault();
+                    if (this.id == answer1) {
+                        this.style.backgroundColor = "green";
+                        feedback1.innerHTML = "Correct!";
+                        access = false;
+
+                    }
+                    else if (access) {
+                        this.style.backgroundColor = "red";
+                        feedback1.innerHTML = "Incorrect";
+                    }
+                });
+            }
+
+            let answer2 = "HYPERTEXT MARKUP LANGUAGE";
+            let field = document.querySelector("#field");
+            let check = document.querySelector("#check");
+            let feedback2 = document.querySelector("#feedback2");
+
+            check.addEventListener("click", function () {
+                event.preventDefault();
+                if (field.value == answer2) {
+                    field.style.backgroundColor = "green";
+                    feedback2.innerHTML = "Correct!";
+                }
+                else {
+                    field.style.backgroundColor = "red";
+                    feedback2.innerHTML = "Incorrect";
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Trivia!</h1>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>Part 1: Multiple Choice </h2>
+            <hr>
+            <!-- TODO: Add multiple choice question here -->
+            <h3> Which of the following is a CSS preprocessor? </h3>
+            <form id="multiple">
+                <button type="submit" id="a"> React </button>
+                <button type="submit" id="b"> Sass </button>
+                <button type="submit" id="c"> Angular </button>
+            </form>
+            <p id="feedback1"></p>
+
+        </div>
+
+        <div class="section">
+            <h2>Part 2: Free Response</h2>
+            <hr>
+            <!-- TODO: Add free response question here -->
+            <h3> What does HTML stand for? (In all CAPS)</h3>
+            <input id="field">
+            <button type="submit" id="check">Check Answer</button>
+            <p id="feedback2"></p>
+        </div>
+    </div>
+</body>
+
+</html>
