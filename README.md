@@ -11,4 +11,3 @@ Harvard University’s introduction to the intellectual enterprises of computer 
 - [Week 7 SQL](https://github.com/kylekce/CS50x-2023/tree/main/Week%207)
 - [Week 8 HTML, CSS, JavaScript](https://github.com/kylekce/CS50x-2023/tree/main/Week%208)
 - [Week 9 Flask](https://github.com/kylekce/CS50x-2023/tree/main/Week%209)
-- [Week 10 Emoji](https://github.com/kylekce/CS50x-2023/tree/main/Week%2010)
