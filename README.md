@@ -11,6 +11,6 @@ Harvard University’s introduction to the intellectual enterprises of computer 
 - [Week 7 SQL](https://github.com/kylekce/CS50x-2023/tree/main/Week%207)
 - [Week 8 HTML, CSS, JavaScript](https://github.com/kylekce/CS50x-2023/tree/main/Week%208)
 - [Week 9 Flask](https://github.com/kylekce/CS50x-2023/tree/main/Week%209)
-- [Final Project](https://github.com/kylekce/FlashCodesPublic)
+- [Final Project](https://flashcodes.fun)
 
 _*Please note that this repository serves as a storage space for my projects and files completed for Harvard University's CS50x course. It is not intended to be used as a source of answers or to encourage academic dishonesty. If you are currently enrolled in the course, please refer to the course materials and complete the assignments on your own*_
